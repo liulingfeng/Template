@@ -34,6 +34,7 @@
         type="string"
         constraints="unique|nonempty"
         default="MVPContract"
+        suggest="${underscoreToCamelCase(classToResource(activityClass))}Contract"
         help="The contract of mvpActivity" />
 
    <parameter
@@ -42,6 +43,7 @@
         type="string"
         constraints="unique|nonempty"
         default="MVPPresenter"
+        suggest="${underscoreToCamelCase(classToResource(activityClass))}Presenter"
         help="The presenter of mvpActivity" />
 
     <parameter

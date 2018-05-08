@@ -15,6 +15,7 @@
         name="Fragment Name"
         type="string"
         constraints="class|unique|nonempty"
+        suggest="${underscoreToCamelCase(classToResource(layoutName))}Fragment"
         default="MVPFragment"
         help="The name of the fragment class to create" />
 
@@ -31,6 +32,7 @@
         name="Contract Name"
         type="string"
         constraints="unique|nonempty"
+        suggest="${underscoreToCamelCase(classToResource(fragmentClass))}Contract"
         default="MVPContract"
         help="The contract of mvpFragment" />
 
@@ -39,16 +41,10 @@
         name="Presenter Name"
         type="string"
         constraints="unique|nonempty"
+        suggest="${underscoreToCamelCase(classToResource(fragmentClass))}Presenter"
         default="MVPPresenter"
         help="The presenter of mvpFragment" />
-
-    <parameter
-        id="isLauncher"
-        name="Launcher Activity"
-        type="boolean"
-        default="false"
-        help="If true, this activity will have a CATEGORY_LAUNCHER intent filter, making it visible in the launcher" />
-    
+ 
     <parameter
         id="packageName"
         name="Package name"
