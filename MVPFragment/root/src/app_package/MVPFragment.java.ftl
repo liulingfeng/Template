@@ -1,4 +1,4 @@
-package ${packageName};
+package ${packageName}.view.fragment;
 import com.mistong.commom.base.BasePresenterFragment;
 
 public class ${fragmentClass} extends BasePresenterFragment<${presenterName}> implements ${contractName}.View{

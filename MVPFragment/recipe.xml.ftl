@@ -4,9 +4,9 @@
 		to="${escapeXmlAttribute(resOut)}/layout/${layoutName}.xml" />
 
     <instantiate from="root/src/app_package/MVPFragment.java.ftl"
-                   to="${escapeXmlAttribute(srcOut)}/${fragmentClass}.java" />
+                   to="${escapeXmlAttribute(srcOut)}/view/fragment/${fragmentClass}.java" />
     <instantiate from="root/src/app_package/MVPPresenter.java.ftl"
-                   to="${escapeXmlAttribute(srcOut)}/${presenterName}.java" />
+                   to="${escapeXmlAttribute(srcOut)}/presenter/${presenterName}.java" />
     <instantiate from="root/src/app_package/MVPContract.java.ftl"
-                   to="${escapeXmlAttribute(srcOut)}/${contractName}.java" />
+                   to="${escapeXmlAttribute(srcOut)}/contract/${contractName}.java" />
 </recipe>

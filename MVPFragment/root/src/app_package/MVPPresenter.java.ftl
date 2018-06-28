@@ -1,4 +1,4 @@
-package ${packageName};
+package ${packageName}.presenter;
 
 import com.mistong.commom.base.RxPresenter;
 

@@ -1,4 +1,4 @@
-package ${packageName};
+package ${packageName}.contract;
 
 import com.mistong.commom.base.BasePresenter;
 import com.mistong.commom.base.BaseView;
