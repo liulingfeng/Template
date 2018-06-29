@@ -1,25 +1,32 @@
 ## Template
 Activity模板，快速创建项目。
 
-#### AdvertiseActivity
+AdvertiseActivity
+-
 轮播广告activity
 
-#### CardViewPageActivity</hr>
+CardViewPageActivity
+-
 底部卡片轮播activity
 
-#### SplashActivity</hr>
+SplashActivity
+-
 启动屏activity
 
-#### TabsActivity</hr>
+TabsActivity
+-
 首页卡片切换activity
 
-#### WelcomeGuideActivity</hr>
+WelcomeGuideActivity
+-
 欢迎页activity
 
-#### MVPActivity</hr>
+MVPActivity
+-
 快速创建MVPActivity
 
-#### MVPFragment</hr>
+MVPFragment
+-
 快速创建MVPFragment
 
 ## 使用方法
