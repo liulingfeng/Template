@@ -3,17 +3,23 @@ Activity模板，快速创建项目。
 
 #### AdvertiseActivity
 轮播广告activity
-#### CardViewPageActivity
+
+#### CardViewPageActivity</hr>
 底部卡片轮播activity
-#### SplashActivity
+
+#### SplashActivity</hr>
 启动屏activity
-#### TabsActivity
+
+#### TabsActivity</hr>
 首页卡片切换activity
-#### WelcomeGuideActivity
+
+#### WelcomeGuideActivity</hr>
 欢迎页activity
-#### MVPActivity
+
+#### MVPActivity</hr>
 快速创建MVPActivity
-#### MVPFragment
+
+#### MVPFragment</hr>
 快速创建MVPFragment
 
 ## 使用方法
@@ -22,4 +28,4 @@ Activity模板，快速创建项目。
 重装Android Studio之后自定义的插件需要重新导入。
 
 ## 注意
-MVPActivity和MVPFragment包引入部分是根据我们公司的项目路径的，所以不一定都适用（需要的提Issue，我给你定制），fragmentMVP的联动还有一点小问题，目前只能通过修改Fragment Name来实现，layout是不行的。
+MVPActivity和MVPFragment包引入部分是根据我们公司的项目路径的，所以不一定都适用（需要的提Issue，我给你定制）；FragmentMVP的联动还有一点小问题，目前只能通过修改Fragment Name来实现，layout是不行的。
